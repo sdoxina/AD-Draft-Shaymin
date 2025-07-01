@@ -10,7 +10,22 @@
         {
             "name": "papilooz",
             "email": "manriquequervie@gmail.com"
-
+        },
+        {
+            "name": "mm-gonzales",
+            "email": "author2@example.com"
+        },
+        {
+            "name": "Author Three",
+            "email": "author3@example.com"
+        },
+        {
+            "name": "Author Four",
+            "email": "author4@example.com"
+        },
+         {
+            "name": "Author Four",
+            "email": "author4@example.com"
         }
 
     ],
