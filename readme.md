@@ -153,7 +153,7 @@ AD-ProjectName
 
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Login/Signup Page | Sample purpose would be here like this and this is the example of what it is. | https://codepen.io/BROOK_BK7/pen/VwjwRWr |
-| Glitch effect | Sample purpose would be here like this and this is the example of what it is. | https://codepen.io/Diana-Moretti/pen/RNwyPOV |
+| Login/Signup Page | Sample purpose would be here like this and this is the example of what it is. | <a href="https://codepen.io/BROOK_BK7/pen/VwjwRWr">Codepen</a> |
+| Glitch effect | Sample purpose would be here like this and this is the example of what it is. | <a href="https://codepen.io/Diana-Moretti/pen/RNwyPOV">Codepen</a> |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
