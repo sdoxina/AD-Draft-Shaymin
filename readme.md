@@ -11,7 +11,7 @@
   <h3 align="center">Outlast</h3>
 </div>
 <div align="center">
-Outlast is your ultimate survival companion in a post-apocalyptic world. Our website offers a curated selection of essential gear, tools, and supplies to help you thrive—not just survive—during a zombie apocalypse. From fortified shelters to anti-zombie weapons, Outlast has everything you need to stay one step ahead.
+Outlast is your ultimate survival companion in a post-apocalyptic world. Our website offers a curated selection of         essential gear, tools, and supplies to help you thrive—not just survive—during a zombie apocalypse. From fortified shelters to anti-zombie weapons, Outlast has everything you need to stay one step ahead.
 </div>
 
 <br />
@@ -153,7 +153,7 @@ AD-ProjectName
 
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Login/Signup Page | Sample purpose would be here like this and this is the example of what it is. | https://codepen.io/BROOK_BK7/pen/VwjwRWr |
+| Glitch effect | Sample purpose would be here like this and this is the example of what it is. | https://codepen.io/Diana-Moretti/pen/RNwyPOV |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
