@@ -1,9 +1,9 @@
 {
-    "name": "63947/ad-finals-shaymin",
+    "name": "oxina/ad-draft-shaymin",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "63947\\AdFinalsShaymin\\": "src/"
+            "Oxina\\AdDraftShaymin\\": "src/"
         }
     },
     "authors": [
@@ -27,7 +27,6 @@
             "name": "Author Four",
             "email": "author4@example.com"
         }
-
     ],
     "require": {}
 }
