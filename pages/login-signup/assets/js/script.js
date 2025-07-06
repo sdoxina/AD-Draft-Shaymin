@@ -12,17 +12,23 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   
 
-const sign_in_btn = document.querySelector("#sign-in-btn");
-const sign_up_btn = document.querySelector("#sign-up-btn");
-const container = document.querySelector(".ls-container");
+document.addEventListener("DOMContentLoaded", () => {
+  const signInForm = document.getElementById("sign-in-form");
+  const signUpForm = document.getElementById("sign-up-form");
+  const showSignup = document.getElementById("show-signup");
+  const showSignin = document.getElementById("show-signin");
 
-sign_up_btn.addEventListener("click", () => {
-  container.classList.add("sign-up-mode");
-});
+  showSignup.addEventListener("click", (e) => {
+    e.preventDefault();
+    signInForm.classList.add("d-none");
+    signUpForm.classList.remove("d-none");
+  });
 
-sign_in_btn.addEventListener("click", () => {
-  container.classList.remove("sign-up-mode");
-});
+  showSignin.addEventListener("click", (e) => {
+    e.preventDefault();
+    signUpForm.classList.add("d-none");
+    signInForm.classList.remove("d-none");
+  });
 
 function validateform(){
 		var user=document.myform.user.value;
@@ -57,4 +63,4 @@ function login(){
 	}else{
 		self.location.href = page;
 	}
-}
+}})
