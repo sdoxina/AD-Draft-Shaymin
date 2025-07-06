@@ -18,6 +18,6 @@ $webDesigner = [
     "role" => "Web Designer"
 ];
 
-$companyLogo = "/assets/img/outlastLogoRed.png";
+$companyLogo = "/assets/img/outlastLgRed.png";
 $companyCopyright = "© 2025 Outlast. All rights reserved.";
 ?>
