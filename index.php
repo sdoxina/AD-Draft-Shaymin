@@ -24,8 +24,15 @@ require_once BASE_PATH . '/utils/htmlEscape.util.php';
 
     <section class="hero-section">
          <div class="container-fluid">
-         <div id="image"></div>
-         <div id="glitch"></div>
+            <div class="hero-txt">
+                <h1 class="hero-heading mb-3">Survive the Horde. Thrive in the Apocalypse.</h1>
+                <h2 class="hero-subheading mb-4">Premium Survival Kits for the Deadliest World</h2>
+                <p class="hero-body mb-4">
+                    When the world fell, we didn’t hide—we prepared. Get the ultimate survival gear. Trade in Zombie Crystals and secure your life.
+                </p>
+                <a href="shop.php" class="btn btn-danger btn-lg hero-cta">Get Your Kit Now</a></div>
+            <div id="image"></div>
+            <div id="glitch"></div>
       </div>
       </section>
 
