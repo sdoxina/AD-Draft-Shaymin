@@ -25,8 +25,9 @@ require_once BASE_PATH . '/utils/htmlEscape.util.php';
     <section class="hero-section">
          <div class="container-fluid">
             <div class="col hero-txt">
-                <h1 class="hero-heading">Survive the Horde. <br> Thrive in the Apocalypse.</h1>
-        <p class="hero-subheading">
+              <img src="./assets/img/outlastLgWhite.png" alt="Outlast Logo" class="hero-img">
+                <h1 class="hero-subheading">Survive the Horde. <br> Thrive in the Apocalypse.</h1>
+        <p class="hero-body">
           When the world fell, we didn’t hide—we prepared. Get the ultimate survival gear. Trade in Zombie Crystals and secure your life.
         </p>
         <a href="shop.php" class="btn btn-lg hero-cta">Our Products<i class="lni lni-arrow-right"></i></a>

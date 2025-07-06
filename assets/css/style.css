@@ -55,7 +55,7 @@
   }
   
   .nav-link {
-    color: #495b50;
+    color: #b7bbb8;
     font-weight: 500;
     position: relative;
     text-decoration: none;
@@ -63,11 +63,11 @@
   }
   
   .navbar-nav .nav-link.active{
-    color: #6F020D;
+    color: #E8EDEA;
   }
   
   .nav-link:hover, .nav-link.active:hover {
-    color: #6F020D;
+    color: #E8EDEA;
   }
   
   .nav-link.dropdown-toggle {
@@ -94,7 +94,7 @@
     position: absolute;
     height: 1.3px;
     width: 100%;
-    background-color: #6F020D;
+    background-color: #E8EDEA;
     bottom: -2px;
     left: 0;
     transition: width 0.3s ease-in-out;
@@ -139,7 +139,7 @@
     }
   
     .nav-link:hover::after {
-      background-image: linear-gradient(to right, #6F020D, #6F020D);
+      background-image: linear-gradient(to right, #e8e8e8, #e8e8e8);
   }
   
     .offcanvas-header {
@@ -301,14 +301,19 @@
 .hero-txt{
   position: relative;
   z-index: 2;
-  color: #6F020D;
+  color: #E8EDEA;
   width: 75%;
   max-width: 800px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  gap: 1.5rem;
+  margin-left: 20px;
+}
+
+.hero-img{
+  max-width: 600px;
+  margin-bottom: 25px;
 }
 
 .hero-heading {
@@ -316,35 +321,42 @@
   font-weight: 700;
   text-align: left;
   animation-delay: calc(2s + 4s * 0.2);
+  margin-left: 20px;
 }
 
 .hero-subheading {
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.7rem;
+  font-weight: 700;
   text-align: left;
-  animation-delay: calc(2s + 5s * 0.25);
+  margin-left: 20px;
+  animation-delay: calc(2s + 4s * 0.25);
 }
 
 .hero-body {
-  font-size: 1.1rem;
-  max-width: 700px;
-  margin: 0 auto;
+  font-weight: 500;
+  font-size: 1.3rem;
+  max-width: 750px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  animation-delay: calc(2s + 5s * 0.25);
 }
 
 .hero-cta {
   padding: 0.75rem 2rem;
   font-weight: 600;
+  margin-left: 20px;
   text-transform: uppercase;
   border-radius: 75px;
   transition: background-color 0.3s;
-  background-color: #5a5a5b80;
+  background-color: #e8edeabb;
   backdrop-filter: blur(3px);
 }
 
 .hero-cta:hover {
-  background-color: #464545;
+  background-color: #e8edeabb;
   backdrop-filter: blur(3px);
-  color: #E8EDEA;
+  color: #6F020D;
 }
 
 .hero-cta i {
@@ -353,7 +365,7 @@
 }
 
 .hero-heading,
-.hero-subheading {
+.hero-subheading, .hero-body {
 	animation-name: glitch-anim-text;
 	animation-duration: 4s;
 	animation-timing-function: linear;
@@ -459,7 +471,7 @@
 
 /* ====== About Section ====== */
 .about-section {
-  background-color: #464545;
+  background-color: #3a1a1a;
   width: 100%;
   height: 100vh;
   display: flex;
