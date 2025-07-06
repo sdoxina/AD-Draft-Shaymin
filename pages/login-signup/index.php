@@ -22,72 +22,54 @@ require_once BASE_PATH . '/utils/htmlEscape.util.php';
     <!-- Nav -->
      <?php require_once BASE_PATH . '/components/templates/nav.component.php'; ?>
 
-    <section class="login-signup-section">
-        <div class="ls-container">
-      <div class="forms-container">
-        <div class="signin-signup">
-          <form name="form" class="sign-in-form" method="post" onsubmit="login()" >
-            <h2 class="title">Sign in</h2>
-            <div class="input-field">
-              <i class="fas fa-user"></i>
-              <input type="text" name="user" placeholder="Username" />
-            </div>
-            <div class="input-field">
-              <i class="fas fa-lock"></i>
-              <input type="password" name="password" placeholder="Password" />
-            </div>
-            <input type="submit" value="Login" class="btn solid" />
-          </form>
-
-
-          <form name="myform" class="sign-up-form" method="post" onsubmit="return validateform()" >
-            <h2 class="title">Sign up</h2>
-            <div class="input-field">
-
-              <i class="fas fa-user"></i>
-              <input type="text" name="user" placeholder="Username" />
-            </div>
-            <div class="input-field">
-              <i class="fas fa-envelope"></i>
-              <input type="email" name="email" placeholder="Email" />
-            </div>
-            <div class="input-field">
-              <i class="fas fa-lock"></i>
-              <input type="password" name="password" placeholder="Password" />
-            </div>
-            <input type="submit" class="btn" value="Sign up" />
-          </form>
+    <section class="login-signup-section d-flex align-items-center">
+    <div class="card p-4 shadow-lg" style="max-width: 400px; width: 100%;">
+      <!-- Sign In Form -->
+      <form id="sign-in-form" class="needs-validation" novalidate>
+        <h2 class="text-center mb-4">Sign In</h2>
+        <div class="mb-3">
+          <label class="form-label">Username</label>
+          <input type="text" class="form-control" required>
+          <div class="invalid-feedback">Please enter your username.</div>
         </div>
-      </div>
+        <div class="mb-3">
+          <label class="form-label">Password</label>
+          <input type="password" class="form-control" required>
+          <div class="invalid-feedback">Please enter your password.</div>
+        </div>
+        <button type="submit" class="btn w-100 mb-2">Login</button>
+        <p class="text-center small">
+          Don't have an account? 
+          <a href="#" id="show-signup">Register</a>
+        </p>
+      </form>
 
-      <div class="panels-container">
-        <div class="panel left-panel">
-          <div class="content">
-            <h3>New here ?</h3>
-            <p>
-              Signup Here If You Don't Have Account.
-            </p>
-            <button class="btn transparent" id="sign-up-btn">
-              Sign up
-            </button>
-          </div>
-          <img src="img/log.svg" class="image" alt="" />
+      <!-- Sign Up Form -->
+      <form id="sign-up-form" class="d-none needs-validation" novalidate>
+        <h2 class="text-center mb-4">Sign Up</h2>
+        <div class="mb-3">
+          <label class="form-label">Username</label>
+          <input type="text" class="form-control" required>
+          <div class="invalid-feedback">Please enter a username.</div>
         </div>
-        <div class="panel right-panel">
-          <div class="content">
-            <h3>One of us ?</h3>
-            <p>
-              If You Already Have Account Signin Here.
-            </p>
-            <button class="btn transparent" id="sign-in-btn">
-              Sign in
-            </button>
-          </div>
-          <img src="img/register.svg" class="image" alt="" />
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" required>
+          <div class="invalid-feedback">Please enter a valid email.</div>
         </div>
-      </div>
+        <div class="mb-3">
+          <label class="form-label">Password</label>
+          <input type="password" class="form-control" minlength="8" required>
+          <div class="invalid-feedback">Password must be at least 8 characters.</div>
+        </div>
+        <button type="submit" class="btn w-100 mb-2">Sign Up</button>
+        <p class="text-center small">
+          Already have an account? 
+          <a href="#" id="show-signin">Login</a>
+        </p>
+      </form>
     </div>
-    </section>
+  </section>
 
       <!-- Footer -->
        <?php require_once BASE_PATH . '/components/templates/footer.component.php'; ?>
