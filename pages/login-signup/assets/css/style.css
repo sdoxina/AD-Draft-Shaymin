@@ -14,7 +14,7 @@ input {
   /* ====== Navigation Bar ====== */
     
   .navbar {
-    background-color: #E8EDEA;
+    background-color: transparent;
     height: 80px;
     padding: 0.5rem;
   }
@@ -29,7 +29,7 @@ input {
   
   .navbar-brand {
     font-weight: 500;
-    color: #6F020D;
+    color: #e8e8e8;
     font-size: 24px;
     transition: 0.3s color;
     width: 10%;
@@ -64,7 +64,7 @@ input {
   }
   
   .nav-link {
-    color: #495b50;
+    color: #b7bbb8;
     font-weight: 500;
     position: relative;
     text-decoration: none;
@@ -72,11 +72,11 @@ input {
   }
   
   .navbar-nav .nav-link.active{
-    color: #6F020D;
+    color: #E8EDEA;
   }
   
   .nav-link:hover, .nav-link.active:hover {
-    color: #6F020D;
+    color: #E8EDEA;
   }
   
   .nav-link.dropdown-toggle {
@@ -103,7 +103,7 @@ input {
     position: absolute;
     height: 1.3px;
     width: 100%;
-    background-color: #6F020D;
+    background-color: #e8e8e8;
     bottom: -2px;
     left: 0;
     transition: width 0.3s ease-in-out;
@@ -148,7 +148,7 @@ input {
     }
   
     .nav-link:hover::after {
-      background-image: linear-gradient(to right, #6F020D, #6F020D);
+      background-image: linear-gradient(to right, #e8e8e8, #e8e8e8);
   }
   
     .offcanvas-header {
@@ -240,102 +240,24 @@ input {
     border-color: #bac6a3 !important;
 }
 
-/* Login-SignUp Section */
+/* ====== Login-Signup Section ====== */
 
-.ls-container {
-  position: relative;
-  width: 100%;
-  background: url(../../../../assets/img/flare.gif) no-repeat center center/cover;
+.login-signup-section {
   min-height: 100vh;
-  overflow: hidden;
-}
-
-.forms-container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.signin-signup {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 75%;
-  width: 50%;
-  transition: 1s 0.7s ease-in-out;
-  display: grid;
-  grid-template-columns: 1fr;
-  z-index: 5;
-}
-
-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0rem 5rem;
-  transition: all 0.2s 0.7s;
-  overflow: hidden;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-
-form.sign-up-form {
-  opacity: 0;
-  z-index: 1;
-}
-
-form.sign-in-form {
-  z-index: 2;
-}
-
-.title {
-  font-size: 2.2rem;
-  color: #444;
-  margin-bottom: 10px;
-}
-
-.input-field {
-  max-width: 380px;
-  width: 100%;
-  background-color: #f0f0f0;
-  margin: 10px 0;
-  height: 55px;
-  border-radius: 50px;
-  display: grid;
-  grid-template-columns: 15% 85%;
-  padding: 0 0.4rem;
+  background: url(../../../../assets/img/flare.gif) no-repeat center center / cover;
   position: relative;
+  padding: 20px;
+  justify-content: left;
 }
 
-.input-field i {
-  text-align: center;
-  line-height: 55px;
-  color: #acacac;
-  transition: 0.5s;
-  font-size: 1.1rem;
+.card {
+  background-color: #f4f8fd1a;
+  backdrop-filter: blur(3px);
+  border-radius: 1rem;
+  left: 15%;
 }
 
-.input-field input {
-  background: none;
-  outline: none;
-  border: none;
-  line-height: 1;
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: #333;
-}
-
-.input-field input::placeholder {
-  color: #aaa;
-  font-weight: 500;
-}
-
-
-
-.btn {
+.btn{
   width: 150px;
   background-color: #6F020D;
   border: none;
@@ -355,265 +277,54 @@ form.sign-in-form {
   border:inset 4px #6F020D;
   color:#290408;
 }
-.panels-container {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+
+#sign-in-form, #sign-up-form{
+  color: #E8EDEA;
 }
 
-.ls-container:before {
-  content: "";
-  position: absolute;
-  height: 2000px;
-  width: 2000px;
-  top: -10%;
-  right: 48%;
-  transform: translateY(-50%);
-  background-color: #410309c4;
-  backdrop-filter: blur(3px);
-  transition: 1.8s ease-in-out;
-  border-radius: 50%;
-  z-index: 6;
-}
-
-.image {
-  width: 100%;
-  transition: transform 1.1s ease-in-out;
-  transition-delay: 0.4s;
-}
-
-.panel {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-around;
-  text-align: center;
-  z-index: 6;
-}
-
-.left-panel {
-  pointer-events: all;
-  padding: 3rem 17% 2rem 12%;
-}
-
-.right-panel {
-  pointer-events: none;
-  padding: 3rem 12% 2rem 17%;
-}
-
-.panel .content {
-  color: #fff;
-  transition: transform 0.9s ease-in-out;
-  transition-delay: 0.6s;
-}
-
-.panel h3 {
-  font-weight: 600;
-  line-height: 1;
-  font-size: 1.5rem;
-}
-
-.panel p {
-  font-size: 0.95rem;
-  padding: 0.7rem 0;
-}
-
-.btn.transparent {
-  margin: 0;
-  background: none;
-  border: 2px solid #fff;
-  width: 130px;
-  height: 41px;
-  font-weight: 600;
-  font-size: 0.8rem;
-}
-
-.right-panel .image,
-.right-panel .content {
-  transform: translateX(800px);
-}
-
-/* ANIMATION */
-
-.ls-container.sign-up-mode:before {
-  transform: translate(100%, -50%);
-  right: 52%;
-}
-
-.ls-container.sign-up-mode .left-panel .image,
-.ls-container.sign-up-mode .left-panel .content {
-  transform: translateX(-800px);
-}
-
-.ls-container.sign-up-mode .signin-signup {
-  left: 25%;
-}
-
-.ls-container.sign-up-mode form.sign-up-form {
-  opacity: 1;
-  z-index: 2;
-}
-
-.ls-container.sign-up-mode form.sign-in-form {
-  opacity: 0;
-  z-index: 1;
-}
-
-.ls-container.sign-up-mode .right-panel .image,
-.ls-container.sign-up-mode .right-panel .content {
-  transform: translateX(0%);
-}
-
-.ls-container.sign-up-mode .left-panel {
-  pointer-events: none;
-}
-
-.ls-container.sign-up-mode .right-panel {
-  pointer-events: all;
+#sign-in-form a, #sign-up-form a{
+  color: #E8EDEA;
 }
 
 @media (max-width: 870px) {
-  .ls-container {
-    min-height: 800px;
-    height: 100vh;
+  .login-signup-section{
+    justify-content: center;
   }
+
+  .card{
+    left: 0%;
+  }
+
   .signin-signup {
-    width: 100%;
-    top: 95%;
-    transform: translate(-50%, -100%);
-    transition: 1s 0.8s ease-in-out;
-  }
-
-  .signin-signup,
-  .ls-container.sign-up-mode .signin-signup {
+    width: 90%;
     left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 1rem;
   }
 
-  .panels-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
-  }
-
-  .panel {
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2.5rem 8%;
-    grid-column: 1 / 2;
-  }
-
-  .right-panel {
-    grid-row: 3 / 4;
-  }
-
-  .left-panel {
-    grid-row: 1 / 2;
-  }
-
-  .image {
-    width: 200px;
-    transition: transform 0.9s ease-in-out;
-    transition-delay: 0.6s;
-  }
-
-  .panel .content {
-    padding-right: 15%;
-    transition: transform 0.9s ease-in-out;
-    transition-delay: 0.8s;
-  }
-
-  .panel h3 {
-    font-size: 1.2rem;
-  }
-
-  .panel p {
-    font-size: 0.7rem;
-    padding: 0.5rem 0;
-  }
-
-  .btn.transparent {
-    width: 110px;
-    height: 35px;
-    font-size: 0.7rem;
-  }
-
-  .ls-container:before {
-    width: 1500px;
-    height: 1500px;
-    transform: translateX(-50%);
-    left: 30%;
-    bottom: 68%;
-    right: initial;
-    top: initial;
-    transition: 2s ease-in-out;
-  }
-
-  .ls-container.sign-up-mode:before {
-    transform: translate(-50%, 100%);
-    bottom: 32%;
-    right: initial;
-  }
-
-  .ls-container.sign-up-mode .left-panel .image,
-  .ls-container.sign-up-mode .left-panel .content {
-    transform: translateY(-300px);
-  }
-
-  .ls-container.sign-up-mode .right-panel .image,
-  .ls-container.sign-up-mode .right-panel .content {
-    transform: translateY(0px);
-  }
-
-  .right-panel .image,
-  .right-panel .content {
-    transform: translateY(300px);
-  }
-
-  .ls-container.sign-up-mode .signin-signup {
-    top: 5%;
-    transform: translate(-50%, 0);
-  }
-}
-
-@media (max-width: 570px) {
   form {
-    padding: 0 1.5rem;
+    padding: 1rem;
   }
 
-  .image {
-    display: none;
-  }
-  .panel .content {
-    padding: 0.5rem 1rem;
-  }
-  .ls-container {
-    padding: 1.5rem;
+  .input-field {
+    max-width: 100%;
+    height: 50px;
+    grid-template-columns: 20% 80%;
+    margin: 8px 0;
   }
 
-  .ls-container:before {
-    bottom: 72%;
-    left: 50%;
+  .input-field i {
+    font-size: 1rem;
   }
 
-  .ls-container.sign-up-mode:before {
-    bottom: 28%;
-    left: 50%;
+  .btn {
+    width: 100%;
+    height: 45px;
+    font-size: 1rem;
   }
-}
 
-/* ====== Login-Signup Section ====== */
-.login-signup-section {
-  background: url(../../img/flare.gif) no-repeat center center/cover;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  overflow: hidden;
-  position: relative; /* ensure stacking context */
+  .title {
+    font-size: 1.8rem;
+  }
 }
