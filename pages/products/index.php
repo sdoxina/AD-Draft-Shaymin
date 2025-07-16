@@ -25,7 +25,7 @@ require_once BASE_PATH . '/../../utils/htmlEscape.util.php';
   <!-- Product Catalog -->
   <section class="product-page container py-5">
     <div class="text-center mb-4">
-      <h1 class="outlast-title">Outlast Products</h1>
+      <h1 class="outlast-title">Products</h1>
       <input type="text" id="searchInput" placeholder="Search..." class="form-control search-box" />
     </div>
 
