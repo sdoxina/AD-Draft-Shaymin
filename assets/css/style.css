@@ -573,9 +573,13 @@
 }
 
 .about-card-copy {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-style: italic;
   line-height: 1.35;
+  hyphens: auto;
+  text-align: justify;
+  text-align-last: center;
+  text-justify: inter-character;
 }
 
 @media (hover: hover) {
