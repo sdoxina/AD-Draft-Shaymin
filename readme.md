@@ -24,6 +24,12 @@ Outlast is your ultimate survival companion in a post-apocalyptic world. Our web
 [![wakatime](https://wakatime.com/badge/user/50d53971-71c4-47c9-a5ac-6d633c759326/project/773143f7-908b-4f91-a8a0-1566d88f8e25.svg)](https://wakatime.com/badge/user/50d53971-71c4-47c9-a5ac-6d633c759326/project/773143f7-908b-4f91-a8a0-1566d88f8e25)
 [![wakatime](https://wakatime.com/badge/user/65f5d1d3-0933-4b6c-b6df-d8bf043e70be/project/9072e330-ba90-4d0f-8f33-5f9a0cdb57b0.svg)](https://wakatime.com/badge/user/65f5d1d3-0933-4b6c-b6df-d8bf043e70be/project/9072e330-ba90-4d0f-8f33-5f9a0cdb57b0)
 
+| 202311026        | [![wakatime](https://wakatime.com/badge/user/65f5d1d3-0933-4b6c-b6df-d8bf043e70be/project/9072e330-ba90-4d0f-8f33-5f9a0cdb57b0.svg)](https://wakatime.com/badge/user/65f5d1d3-0933-4b6c-b6df-d8bf043e70be/project/9072e330-ba90-4d0f-8f33-5f9a0cdb57b0)|
+| StudentNumber        | wakatime |
+| StudentNumber        | wakatime |
+| StudentNumber        | wakatime |
+| StudentNumber        | wakatime |
+
 ---
 
 <br />
