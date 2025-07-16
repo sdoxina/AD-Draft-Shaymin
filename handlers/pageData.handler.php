@@ -4,6 +4,7 @@
 $navList = [
     ["label" => "Home", "url" => "/index.php"],
     ["label" => "Items", "url" => "/pages/ExamplePage/index.php"],
+    ["label" => "Users", "url" => "/pages/user/index.php"],
     ["label" => "Login", "url" => "/pages/login-signup/index.php"],
     ["label" => "Sign Up", "url" => "/pages/signup/index.php"]
 ];
