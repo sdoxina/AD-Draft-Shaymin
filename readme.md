@@ -162,4 +162,5 @@ AD-ProjectName
 | Login/Signup Page | Sample purpose would be here like this and this is the example of what it is. | <a href="https://codepen.io/BROOK_BK7/pen/VwjwRWr">Codepen</a> |
 | Glitch Effect | Sample purpose would be here like this and this is the example of what it is. | <a href="https://codepen.io/Diana-Moretti/pen/RNwyPOV">Codepen</a> |
 | Glitch Text Effect | Sample purpose would be here like this and this is the example of what it is. | <a href="https://codepen.io/hoskinshozzy/pen/jKRqXv">Codepen</a> |
+| 3D Card Hover Effect   | Provides a stylish 3D hover interaction for cards, useful for showcasing products or features in a modern, interactive layout. | <a href="https://codepen.io/hexagoncircle/pen/XWbWKwL">Codepen</a> |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
