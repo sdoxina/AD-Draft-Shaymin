@@ -40,7 +40,7 @@ require_once BASE_PATH . '/utils/htmlEscape.util.php';
 
       <section class="about-section">
          <div class="container-fluid">
-          <h1>Why Choose Us</h1>
+          <img src="./assets/img/chooseOutlast.png" alt="Why Choose Outlast" class="choose-img">
          </div>
       </section>
 
