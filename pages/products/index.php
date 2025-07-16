@@ -1,9 +1,17 @@
 <?php
+
+// Siguraduhin na ang BASE_PATH ay naka-define.
+// Ito ay tumuturo sa root directory ng iyong project.
 if (!defined('BASE_PATH')) {
-    define('BASE_PATH', __DIR__);
+    define('BASE_PATH', __DIR__ . '/../..');
 }
-require_once BASE_PATH . '/../../vendor/autoload.php';
-require_once BASE_PATH . '/../../utils/htmlEscape.util.php';
+
+// I-require ang Composer autoloader para sa mga dependencies.
+require_once BASE_PATH . '/vendor/autoload.php';
+
+// I-require ang HTML escaping utility para sa seguridad.
+require_once BASE_PATH . '/utils/htmlEscape.util.php';
+
 ?>
 
 <!DOCTYPE html>
@@ -11,27 +19,23 @@ require_once BASE_PATH . '/../../utils/htmlEscape.util.php';
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Outlast</title>
-  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  <title>Outlast - Products</title> <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="icon" type="image/x-icon" href="../../assets/img/outlastLgFav.png" />
+  <link rel="stylesheet" href="./assets/css/style.css" /> <link rel="icon" type="image/x-icon" href="../../assets/img/outlastLgFav.png" />
 </head>
 <body>
 
-  <!-- Navigation -->
-  <?php require_once BASE_PATH . '/../../components/templates/nav.component.php'; ?>
+  <?php require_once BASE_PATH . '/components/templates/nav.component.php'; ?>
 
-  <!-- Product Catalog -->
   <section class="product-page container py-5">
     <div class="text-center mb-4">
       <h1 class="outlast-title">Products</h1>
-      <input type="text" id="searchInput" placeholder="Search..." class="form-control search-box" />
+      <input type="text" id="searchInput" placeholder="Search products..." class="form-control search-box" />
     </div>
 
     <div class="row g-4" id="productGrid">
-      <!-- Product Card -->
       <?php
+        // Array ng sample products
         $products = [
           ["title" => "LUITION", "desc" => "Knockoff Good Back Pack", "price" => "₱1999"],
           ["title" => "UEREATIN", "desc" => "Multi-Pocket Crossbag", "price" => "₱1999"],
@@ -40,6 +44,7 @@ require_once BASE_PATH . '/../../utils/htmlEscape.util.php';
           ["title" => "ADRP EGSE", "desc" => "Combat Style Gear", "price" => "₱1999"],
         ];
 
+        // Loop sa bawat produkto para i-display ang card nito
         foreach ($products as $p) {
           echo '
           <div class="col-sm-6 col-md-4 col-lg-3 product-card">
@@ -54,8 +59,7 @@ require_once BASE_PATH . '/../../utils/htmlEscape.util.php';
     </div>
   </section>
 
-  <!-- Footer -->
-  <?php require_once BASE_PATH . '/../../components/templates/footer.component.php'; ?>
+  <?php require_once BASE_PATH . '/components/templates/footer.component.php'; ?>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./assets/js/script.js"></script>
