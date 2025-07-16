@@ -13,24 +13,24 @@ document.addEventListener("DOMContentLoaded", function () {
   
   const aboutCardsData = [
   {
-    title: 'Survival-Centric Design',
-    copy: 'Our energy solutions are engineered with the unique needs of a post-apocalyptic community in mind, ensuring collective resilience and well-being.',
-    img: 'https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800'
+    title: 'Built for the End',
+    copy: 'Every tool, weapon, and kit we sell is designed to keep you alive when the world stops making sense. Dependable gear for the worst days.',
+    img: './assets/img/about-card-image-1.jpg'
   },
   {
-    title: 'Readily Available & Adaptable',
-    copy: 'Outlast leverages an innovative, tech-enabled distribution network, providing seamless access to vital energy supplies even in the most challenging and unpredictable environments.',
-    img: 'https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800'
+    title: 'Supplies When You Need Them',
+    copy: 'We make sure you can get food, water, medicine, and weapons fast—even when roads are ruined and comms are down. Survival should never be out of reach.',
+    img: './assets/img/about-card-image-2.png'
   },
   {
-    title: 'Diverse Arsenal of Power',
-    copy: 'We offer a comprehensive array of energy products, designed to address the varied and critical demands for power in any survival scenario.',
-    img: 'https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800'
+    title: 'Gear for Every Threat',
+    copy: 'Whether you’re fighting off raiders or patching up wounds, our selection covers it all. Pick what suits your plan and stay one step ahead.',
+    img: './assets/img/about-card-image-3.jpeg'
   },
   {
-    title: 'Future-Proofed Solutions',
-    copy: 'We constantly innovate and adapt our energy technology\, researching new power sources and more efficient methods to ensure your survival needs are met as the apocalypse evolves\.',
-    img: 'https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800'
+    title: 'Always One Step Ahead',
+    copy: 'The apocalypse keeps changing. So do we. Count on us to keep updating our stock with what really works out there.',
+    img: './assets/img/about-card-image-4.png'
   }
 ];
 
