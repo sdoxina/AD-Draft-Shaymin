@@ -10,7 +10,7 @@ require_once BASE_PATH . '/handlers/pageData.handler.php';
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title d-flex align-items-center" id="offcanvasNavbarLabel">
-          <img src="/assets/img/outlastLgRed.png" alt="Outlast Logo">
+          <img src="/assets/img/outlastLogoRed.png" alt="Outlast Logo">
         </h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
