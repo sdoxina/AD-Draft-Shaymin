@@ -39,8 +39,15 @@ require_once BASE_PATH . '/utils/htmlEscape.util.php';
       </section>
 
       <section class="about-section">
-         <div class="container-fluid">
-          <img src="./assets/img/chooseOutlast.png" alt="Why Choose Outlast" class="choose-img">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <img src="./assets/img/outlastImage1.png" alt="" class="img-fluid abt-img">
+            </div>
+            <div class="col-12 col-sm-6">
+              <img src="./assets/img/outlastImage2.png" alt="" class="img-fluid abt-img">
+            </div>
+          <!-- <img src="./assets/img/chooseOutlast.png" alt="Woman standing infront of door full of zombies" class="choose-img"> -->
         </div>
       </section>
 
