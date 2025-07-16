@@ -41,8 +41,16 @@ require_once BASE_PATH . '/utils/htmlEscape.util.php';
       <section class="about-section">
          <div class="container-fluid">
           <img src="./assets/img/chooseOutlast.png" alt="Why Choose Outlast" class="choose-img">
-         </div>
+        </div>
       </section>
+
+      <section class="about-cards">
+        <div class="about-container container">
+          <div class="row g-4" id="about-cards-grid"></div>
+        </div>
+      </section>
+
+      
 
       <!-- Footer -->
        <?php require_once BASE_PATH . '/components/templates/footer.component.php'; ?>
