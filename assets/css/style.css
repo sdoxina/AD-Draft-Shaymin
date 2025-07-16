@@ -471,7 +471,7 @@
 
 /* ====== About Section ====== */
 .about-section {
-  background-color: #3a1a1a;
+  background-color: #342222;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -479,10 +479,10 @@
   justify-content: center;
   padding: 4rem 1rem;
   text-align: center;
-  position: relative; /* ensure stacking context */
+  position: relative;
 }
 
-.about-txt{
-  color: #fff;
-  width: 65%;
+.choose-img{
+  width: 80%;
+  height: auto;
 }
