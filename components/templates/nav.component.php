@@ -5,7 +5,7 @@ require_once BASE_PATH . '/handlers/pageData.handler.php';
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand me-auto d-flex align-items-center" href="/index.php?home_clicked=1">
-      <img src="/assets/img/outlastLgRed.png" alt="Logo" class="navbar-img">
+      <img src="/assets/img/outlastLgWhite.png" alt="Logo" class="navbar-img">
     </a>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
