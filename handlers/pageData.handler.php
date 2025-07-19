@@ -3,6 +3,7 @@
 
 $navList = [
     ["label" => "Home", "url" => "/index.php"],
+    ["label" => "Orders", "url" => "/pages/orders/index.php"],
     ["label" => "Items", "url" => "/pages/ExamplePage/index.php"],
     ["label" => "Users", "url" => "/pages/user/index.php"],
     ["label" => "Login", "url" => "/pages/login-signup/index.php"],
