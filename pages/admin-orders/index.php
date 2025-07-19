@@ -100,7 +100,7 @@ $orders = [
         <tr>
           <td><?= htmlspecialchars($o['order_id']) ?></td>
           <td><?= htmlspecialchars($o['user_id']) ?></td>
-          <td>₱<?= number_format((float)$o['total_amount'], 2) ?></td>
+          <td><?= number_format((float)$o['total_amount'], 2) ?></td>
           <td><?= htmlspecialchars($o['status']) ?></td>
           <td><?= htmlspecialchars($o['order_date']) ?></td>
         </tr>
