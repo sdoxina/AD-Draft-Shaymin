@@ -14,8 +14,15 @@ document.addEventListener('DOMContentLoaded', function () {
     let orderItems = [];
 
     function renderTable() {
+    const orderTableWrapper = document.getElementById('orderTableWrapper');
     orderTableBody.innerHTML = '';
     let grandTotal = 0;
+
+    if (orderItems.length === 0) {
+        orderTableWrapper.style.display = 'none'; // Hide entire wrapper
+    } else {
+        orderTableWrapper.style.display = 'block'; // Show it back
+    }
 
     orderItems.forEach((item, index) => {
         const rowTotal = item.price * item.quantity;
@@ -28,8 +35,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 <input type="number" class="form-control form-control-sm quantity-input" 
                        data-index="${index}" min="1" value="${item.quantity}" />
             </td>
-            <td>₱${item.price.toFixed(2)}</td>
-            <td class="row-total">₱${rowTotal.toFixed(2)}</td>
+            <td>${item.price.toFixed(2)}</td>
+            <td class="row-total">${rowTotal.toFixed(2)}</td>
             <td>
                 <button class="btn btn-sm btn-danger remove-btn" data-index="${index}">X</button>
             </td>
